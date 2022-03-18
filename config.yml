@@ -1,0 +1,27 @@
+spectaql:
+  logoFile: ./public/jetshop.png
+  # faviconFile: ./test/fixtures/favicon.png
+  # additionalJsFile: ./examples/customizations/js/custom.js
+  # additionalCssFile: ./examples/customizations/css/custom.css
+
+introspection:
+  removeTrailingPeriodFromDescriptions: false
+  url: https://storeapi.jetshop.io
+  headers:
+    shopId: demostore
+    token: 359fd7c1-8e72-4270-b899-2bda9ae6ef57
+  # metadataFile: ./examples/data/metadata.json
+  # dynamicExamplesProcessingModule: ./examples/customizations/examples
+
+info:
+  title: Jetshop StoreAPI reference
+  description: A self documented documentation
+  contact:
+    name: Product Support
+    url: http://jetshop.io
+    email: support@jetshop.se
+
+servers:
+  - url: https://storeapi.jetshop.io
+    description: Production
+    production: true
